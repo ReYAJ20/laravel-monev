@@ -75,7 +75,7 @@
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto">
                                                     <div class="fas fa-fw text-gray-800 fa-chart-area mb-3"></div>
-                                                    <span class="text-gray-800">OKI {{ $p->namaOki }}</span>
+                                                    <span class="text-gray-800"> {{ $p->namaOki }}</span>
                                                 </div>
                                             </div>
                                             @php

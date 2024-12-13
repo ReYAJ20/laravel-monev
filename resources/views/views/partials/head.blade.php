@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>SINOKI POLINEMA</title>
+    <title>SINOKI HMPSSI</title>
 
     <!-- Custom fonts for this template-->
     <script src="https://kit.fontawesome.com/175c4ad157.js" crossorigin="anonymous"></script>

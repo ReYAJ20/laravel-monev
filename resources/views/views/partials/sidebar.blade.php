@@ -5,7 +5,7 @@
         <div class="sidebar-brand-icon">
             <img src="{{ asset('admin') }}/img/logo.ico" alt="logo-polinema" style="max-width: 40px">
         </div>
-        <div class="sidebar-brand-text mx-3">SINOKI POLINEMA</div>
+        <div class="sidebar-brand-text mx-3">SINOKI HMPSSI</div>
     </a>
 
     <!-- Divider -->

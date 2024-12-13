@@ -56,6 +56,10 @@
                class="d-sm-inline-block btn btn-primary btn-sm shadow-sm ml-2 mt-2 mb-4">
                 <i class="fas fa-sm text-white-50"></i>Data SIE
             </a>
+            <a href="{{ route('halamanProkerCetak', ['data' => $data]) }}"
+               class="d-sm-inline-block btn btn-primary btn-sm shadow-sm ml-2 mt-2 mb-4">
+                <i class="fas fa-sm text-white-50"></i>Cetak Laporan
+            </a>
 
             @include('views.partials.tableDaftarTugas')
 

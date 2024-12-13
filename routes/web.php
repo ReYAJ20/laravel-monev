@@ -56,7 +56,7 @@ Route::group(['middleware' => 'auth.admin'], function () {
     Route::put('tugasproker/{tugasproker}', [TugasprokerController::class, 'update'])->name('tugasproker.update');
     Route::put('/tugasproker/deleteFile/{id}', [TugasprokerController::class, 'deleteFile'])->name('tugasproker.deleteFile');
     Route::delete('tugasprokers/{tugasproker}', [TugasprokerController::class, 'destroy'])->name('tugasproker.destroy');
-
+    
     // CRUD DataSIE.
     Route::post('datasie', [DatasieController::class, 'store'])->name('tambahdatasie.store');
     Route::put('datasie/{id}', [DatasieController::class, 'update'])->name('datasie.update');
@@ -72,6 +72,7 @@ Route::group(['middleware' => 'auth.admin'], function () {
     Route::get('halamanDataSie', [HalamanDataSieController::class, 'index'])->name('halamanDataSie');
     Route::get('halamanEditProker', [HalamanEditProkerController::class, 'index'])->name('halamanEditProker');
     Route::get('halamanProker', [HalamanProkerController::class, 'index'])->name('halamanProker');
+    Route::get('halamanProkerCetak', [HalamanProkerController::class, 'cetak'])->name('halamanProkerCetak');
     Route::get('tambahDataAnggota', [TambahDataAnggotaController::class, 'index'])->name('tambahDataAnggota');
     Route::get('tambahDataSie', [TambahDataSieController::class, 'index'])->name('tambahDataSie');
     Route::get('tambahProker', [TambahProkerController::class, 'index'])->name('tambahProker');

@@ -50,7 +50,11 @@
                                 <div class="text-center " >
                                     <img class="mb-3 mt-4" src="{{asset('assets')}}/HMPS-SI_UIN_IB.png" alt="" width="150px" >
                                     <h1 class="h3 font-weight-bolder text-gray-900 my-3">Halo Teman-Teman!</h1>
-                                    <h2 class="h6 text-gray-900 mb-4">Daftarkan diri anda sebagai pengurus HMPS Sistem Informasi Fakultas Sains dan Teknologi UIN Imam Bonjol Padang</h2>
+                                    <h2 class="h6 text-gray-900 mb-4">
+                                        Daftarkan diri anda sebagai pengurus<br>
+                                        HMPS Sistem Informasi<br>
+                                        Fakultas Sains dan Teknologi<br>
+                                        UIN Imam Bonjol Padang</h2>
                                     <a href="register" class=" d-sm-inline-block btn btn-outline-primary shadow-sm btn-lg" style="border-radius: 50px; font-size: 18pt; font-weight: 600; border-width: 2pt ; padding: 10px 25px;">
                                         Sign Up
                                     </a>
@@ -103,7 +107,7 @@
                                             Sign In
                                         </button>
                                         <div class="text-center mt-3">
-                                            <a class="text-decoration-none text-md " href="https://wa.me/+6282114903130?text=Username%20anda%20:%20? %0A(Kirim%20bukti%20selfie%20dengan%20ktm%20anda)" target="_blank">Lupa sandi? Call Admin</a>
+                                            <a class="text-decoration-none text-md " href="https://wa.me/+6285274569374?text=Username%20anda%20:%20? %0A(Kirim%20bukti%20selfie%20dengan%20ktm%20anda)" target="_blank">Lupa sandi? Call Admin</a>
                                         </div>
                                     </div>
 
