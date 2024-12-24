@@ -22,7 +22,7 @@ After initializing a fresh instances of Laravel (and making all the necessary co
 
 > Masuk menggunakan *nama kalian*@gmail.com dengan password *nama kalian*.
 ##### Contoh: admin@gmail.com dengan password adminadmin. 
-##### Contoh: brian@gmail.com dengan password brianbrian. 
+##### Contoh: reza@gmail.com dengan password reza1234. 
 
 ## Dashboard
 
